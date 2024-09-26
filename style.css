@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Nerko One", system-ui;
+   font-family: "Matemasie", system-ui;
+  color: green;
+  font-size: 20px;
+}
+
+input[type="checkbox"]{
+  transform: scale(2);
+  margin-right: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border-radius: 200px;
+  border: solid 4px black;
+}
+
+
+
+.hidden{
+  display: none;
+}
+
+.botao{
+  background-color: green;
+   font-family: "Nerko One", system-ui;
+  color: black;
+  border: 2px solid white;
+  border-radius: 200px;
+  font-size: 25px;
+}
+
+.botao:over{
+  background-color: lightgreen;
+  border: solid 2px lightblue;
+}
